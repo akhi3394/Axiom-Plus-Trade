@@ -3,7 +3,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '@/store/store';
 import { closeBuyModal } from '@/store/uiSlice';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import { Button } from '../atoms/Button';
 import { Badge } from '../atoms/Badge';
 import { formatCurrency, formatNumber } from '@/lib/formatters';
